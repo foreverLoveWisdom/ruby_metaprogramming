@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+gem 'core_docs', '~> 0.9.5'
+gem 'gem-ctags', '~> 1.0', '>= 1.0.9'
+gem 'irbtools', require: 'irbtools/binding'
+gem 'looksee', '~> 4.2'
 gem 'minitest', '~> 5.4'
-gem 'gem-ctags'
 gem 'rails', '~> 6.0', '>= 6.0.3.2'
